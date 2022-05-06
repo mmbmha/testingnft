@@ -552,12 +552,8 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -658,12 +654,12 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>To Be Customized</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>About NFT</GoldTitle></LogoAligner>
                             <p>Your description goes here.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>To Be Customized</GoldTitle></LogoAligner>
-                            <p>Your description goes here.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Roadmap</GoldTitle></LogoAligner>
+                            <p>phase 1</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
